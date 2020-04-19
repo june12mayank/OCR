@@ -1,7 +1,7 @@
 ## OCR using tesseract and opencv
 
 
-###functions implemented 
+### functions implemented 
 
 - Resizing
 - converting image to lab print
@@ -11,7 +11,7 @@
 - regex to find required information in the extracted text.
 
 
-###functions yet to be implemented
+### functions yet to be implemented
 
 - ROI and bounding box of image
 - better regex
