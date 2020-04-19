@@ -12,7 +12,7 @@ def resize(img,scale):
 #color lab print
 def img_to_lab(img):
 	return (cv2.cvtColor(img, cv2.COLOR_BGR2LAB))
-#splitting lab image to channels
+#splitting lab image to channels this is best working method.
 def channels(img):
 	l,a,b=cv2.split(img)
 	return l,a,b
@@ -29,4 +29,7 @@ def merge(cl,a,b):
 def lab_to_img(img):
 	return cv2.cvtColor(img,cv2.COLOR_LAB2BGR)
 
-  
+#thresholding simple, adaptive and otsu .
+def thresholding(path):
+	im=cv2.imread(path,cv2.IMREAD_GRAYSCALE)
+	return cv2.adaptiveThreshold(im,255,cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,11,2)
