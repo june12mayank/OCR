@@ -1,9 +1,9 @@
 ## OCR using tesseract and opencv
 
 
-** functions.py ** - This is where all the functions lie choose the functions and experiment to find best possible combination.
+* functions.py * - This is where all the functions lie choose the functions and experiment to find best possible combination.
 
-** main.py ** - This is a sample implementaion of how the functions should be implemented
+* main.py * - This is a sample implementaion of how the functions should be implemented
 
 All functions are not not comnined so to choose the best combination for the specific image example which thresholding or wheather to contrast the image or how to resize the image.
 
